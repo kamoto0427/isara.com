@@ -1,0 +1,333 @@
+* {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.str {
+  color: burlywood;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: #fff;
+  width: 100%;
+  height: 80px;
+  display: flex;
+}
+
+.header-left {
+  display: flex;
+  padding: 15px 100px;
+  margin-right: 400px;
+}
+
+.header-left p {
+font-size: 16px;
+padding-top: 9px;
+font-weight: bold;
+}
+
+.header-logo img {
+  width: 120px;
+  height: 50px;
+}
+
+.header a {
+  line-height: 80px;
+  background-color: red;
+  padding: 15px 40px;
+  border-radius: 20px;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.container {
+  height: 100%;
+}
+
+.top-contents {
+  text-align: center;
+  padding: 60px;
+  background-image: url(img/ipad-820272_1920.jpg);
+  background-size: cover;
+}
+
+.top-contents img {
+  padding-bottom: 20px;
+}
+
+.top-contents h1 {
+  font-size: 28px;
+}
+
+.top-contents h3 {
+  font-size: 22px;
+}
+
+.reception-contents {
+  background-color: burlywood;
+  text-align: center;
+  color: white;
+}
+
+.reception-first {
+  padding-top: 20px;
+}
+
+.reception-contents a {
+  display: inline-block;
+  margin: 50px;
+}
+
+#reception-btn {
+  color: white;
+  padding: 20px 400px;
+  background-color: #FF4F50;
+  border-radius: 30px;
+}
+
+.sns-contents {
+  width: 320px;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.sns-btn {
+  width: 100px;
+  background-color: #33CCFF;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.facebook, .favorite {
+  background-color: #3366FF;
+}
+
+.stepTop-contents {
+  background-image: url(img/office-620822_1920.jpg);
+  background-size: cover;
+  height: 420px;
+}
+
+.stepTop-text {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+.stepBox-contents {
+  width: 1170px;
+  height: 180px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.step-content {
+  width: calc(1170px/3);
+  text-align: center;
+  padding: 20px 10px;
+  margin: 0 10px;
+  border-radius: 10px;
+  background: white;
+}
+
+.step-content span {
+  padding: 3px 120px;
+  background: burlywood;
+  border-radius: 10px;
+}
+
+.stepBottom-contents {
+  background-color: #1E90FF;
+  height: 150px;
+}
+
+.stepBottom-text {
+  text-align: center;
+  padding: 20px;
+}
+
+.stepBottom-text p {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.benefits-contents {
+  background-color: burlywood;
+  height: 700px;
+}
+
+.benefits-inner {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.benefits-innerText {
+  text-align: center;
+  padding: 50px;
+}
+
+.str-white {
+  color: white;
+}
+
+.benefitsBox {
+  border: 3px solid #fff;
+  height: 350px;
+}
+
+.benefitsBox-inner {
+  width: 260px;
+  height: 260px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 40px 60px;
+  display: inline-block;
+}
+
+.benefitsBox-inner p {
+  text-align: center;
+}
+
+.benefitsText-first {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 22px;
+  color: red;
+}
+
+.benefitsText-second {
+  text-align: center;
+  padding: 17px;
+  font-weight: bold;
+}
+
+.form-wrapper {
+  background-color: #FFCC66;
+}
+
+.form-inner {
+  width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-title {
+  padding: 50px 0 10px 0;
+  font-size: 30px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.form-title p {
+  font-size: 17px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+form ul li {
+  margin: 20px;
+}
+
+input[type=text],input[type=email] {
+  width: 750px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+textarea {
+  width: 750px;
+  height: 70px;
+  padding: 10px;
+  border-radius: 5px;  
+}
+
+#submit-btn {
+  background-color: red;
+  padding: 10px 370px;
+  border-radius: 50px;
+  color: #fff;
+  opacity: 0.8;
+  border: none;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  cursor: pointer;
+}
+
+.learning-wrapper {
+  background-color: #fff;
+}
+
+.learning-container {
+  width: 1170px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.learning-container h2,p {
+  text-align: center;
+}
+
+.learning-container h2 {
+  padding-top: 50px;
+}
+
+.learning-container p {
+  font-size: 21px;
+}
+
+.learningBox {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+}
+
+.learningBox-inner {
+  width: 25%;
+  height: 200px;
+  border-radius: 50%;
+  background-color: burlywood;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 15px;
+}
+
+.learningBox-contents i,span {
+  color: #fff;
+}
+
+.learningBox-icon {
+  font-size: 48px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.learningBox-text {
+  font-size: 16px;
+  text-align: center;
+}
+
+.learning-bottomText {
+  font-weight: bold;
+}
+
+
