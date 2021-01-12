@@ -330,4 +330,65 @@ textarea {
   font-weight: bold;
 }
 
+.question-wrapper {
+  background-color: red;
+}
+
+.question-container {
+  width: 1170px;
+  margin: 0 auto;
+  background-color: blue;
+}
+
+.q-title {
+  text-align: center;
+  padding: 50px;
+}
+
+#q-often,.q-often {
+  font-size: 34px;
+}
+
+.q-box {
+  padding-bottom: 80px;
+}
+
+.q-inner {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.q-contents {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aqua;
+  border: 1px solid red;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.qc-left {
+  padding-left: 30px;
+}
+
+.qc-left:hover {
+  text-decoration: underline;
+}
+
+.qc-right {
+  padding-right: 30px;
+}
+
+#qc-icon,.q-text,#qc-upBottom {
+  font-size: 22px;
+}
+
+.q-answer {
+  padding: 15px 15px 30px;
+  display: none;
+}
+
 
