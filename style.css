@@ -388,7 +388,10 @@ textarea {
 
 .q-answer {
   padding: 15px 15px 30px;
-  display: none;
+}
+
+.q-first {
+  display: block;
 }
 
 
