@@ -311,7 +311,7 @@ textarea {
   margin: 0 15px;
 }
 
-.learningBox-contents i,span {
+#l-icon1,#l-icon2,#l-icon3,#l-icon4,.l-text {
   color: #fff;
 }
 
@@ -330,14 +330,9 @@ textarea {
   font-weight: bold;
 }
 
-.question-wrapper {
-  background-color: red;
-}
-
 .question-container {
   width: 1170px;
   margin: 0 auto;
-  background-color: blue;
 }
 
 .q-title {
@@ -364,7 +359,6 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: aqua;
   border: 1px solid red;
   border-radius: 3px;
   cursor: pointer;
