@@ -372,12 +372,24 @@ textarea {
   text-decoration: underline;
 }
 
+.q-text {
+  font-weight: bold;
+}
+
 .qc-right {
   padding-right: 30px;
 }
 
 #qc-icon,.q-text,#qc-upBottom {
   font-size: 22px;
+}
+
+#qc-icon {
+  color: blue;
+}
+
+#qc-upBottom {
+  color: red;
 }
 
 .q-answer {
